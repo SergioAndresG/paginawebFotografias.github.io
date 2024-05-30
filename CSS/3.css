@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+body{
+    background-image: url("https://s1.1zoom.me/b5050/251/349092-admin_3840x2400.jpg");
+    background-size: cover;
+}
+
+.navbar.enlace{
+    background-color: #0059C1;
+}
+.encabezado{
+    background-color: #3191ff;
+    height: 130px;
+    transition: all 0.25s;
+    position: fixed;
+    margin-top: 80px;
+}
+#f{
+    height: 969px;
+    font-family: 'Kalam', sans-serif;
+}
+.hola{
+    font-size: 34px;
+    margin-left: 53px;
+    font-family: 'Kalam', sans-serif;
+}
+.nav-item{
+    margin-left:53px;
+    font-family: 'Kalam', sans-serif;
+}
+
+.encabezado.abajo #imagen.oculto {
+    opacity: 1;
+  }
+  
+  .encabezado.abajo a{
+    color:#000000
+  }
+  
+  .encabezado.abajo {
+    background-color: #ffffff;
+    padding: 15px 20px;
+  }
+
+  .encabezado.abajo{
+    border: 2px solid black;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.section .image {
+flex: 1;
+}
+
+.section .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.section.reverse {
+    flex-direction: row-reverse;
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    font-family: 'Kalam', sans-serif;
+}
+
+
+
+
+#im1{
+    width: 500px;
+    height: 500px;
+}
+
+#im2{
+    width: 500px;
+    height: 500px;
+}
+
+#im3{
+    width: 500px;
+    height: 500px;
+}
+
+#im4{
+    width: 500px;
+    height: 500px;
+}
+
+#im5{
+    width: 500px;
+    height: 500px;
+}
+
+#im6{
+    width: 500px;
+    height: 500px;
+}
+
+#con{
+    background-color: black;
+    margin-top: 60px;
+    height: 200px;
+    text-align: center;
+}
+
+#co{
+    color: white;
+    font-family: 'Kalam', sans-serif;
+    font-weight: bold;
+    padding: 1%;
+    font-size: 23px;
+}
+
+#pie{
+    height: 100px;
+    margin-top: 2px;
+}
+
+
+@media screen  and (min-width: 280px) and (max-width: 490px){
+    .navbar.enlace{
+        background-color: #0059C1;
+    }
+    .encabezado{
+        background-color: #3191ff;
+        height: 130px;
+        width: 295px;
+        transition: all 0.25s;
+        position: fixed;
+        margin-top: 80px;
+    }
+    #f{
+        height: 969px;
+        font-family: 'Kalam', sans-serif;
+    }
+    .hola{
+        font-size: 24px;
+        margin-left: 23px;
+        font-family: 'Kalam', sans-serif;
+    }
+    .nav-item{
+        margin-left:53px;
+        font-family: 'Kalam', sans-serif;
+    }
+    
+    .encabezado.abajo #imagen.oculto {
+        opacity: 1;
+      }
+      
+      .encabezado.abajo a{
+        color:#000000
+      }
+      
+      .encabezado.abajo {
+        background-color: #ffffff;
+        padding: 15px 20px;
+      }
+    
+      .encabezado.abajo{
+        border: 2px solid black;
+    }
+
+    
+    .container {
+        width: 50%;
+        max-width: 100px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .section .image {
+    flex: 1;
+    }
+
+    .section .image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .section .text {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .section.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .text{
+        color: rgb(255, 255, 255);
+        font-family: 'Kalam', sans-serif;
+    }
+
+
+    #l{
+        margin-top: 134px;
+        font-family: 'Kalam', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    h1{
+        font-size: 18px;
+    }
+
+
+    
+    #im1{
+        width: 100px;
+        height: 100px;
+        margin-right: -64px;
+
+    }
+
+    #im2{
+        width: 100px;
+        height: 100px;
+        margin-left: -87px;
+
+    }
+
+    #im3{
+        width: 100px;
+        height: 100px;
+        margin-left: -93px;
+
+    }
+
+    #im4{
+        width: 100px;
+        height: 100px;
+        margin-left: -93px;
+
+    }
+
+    #im5{
+        width: 100px;
+        height: 100px;
+        margin-right: -74px;
+    }
+
+    #im6{
+        width: 100px;
+        height: 100px;
+        margin-right: -74px;
+
+    }
+
+    h2{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 13px;
+    }
+    #con{
+        background-color: black;
+        margin-top: 60px;
+        height: 120px;
+        text-align: center;
+    }
+    
+    #co{
+        color: white;
+        font-family: 'Kalam', sans-serif;
+        font-weight: bold;
+        padding: 1%;
+        font-size: 22px;
+        margin-top: 23px;
+    }
+    
+    #pie{
+        height: 50px;
+        margin-top: 23px;
+    }
+}
+
+@media screen  and (min-width: 491px) and (max-width: 570px) {
+    .navbar.enlace{
+        background-color: #0059C1;
+    }
+    .encabezado{
+        background-color: #3191ff;
+        height: 130px;
+        width: 495px;
+        transition: all 0.25s;
+        position: fixed;
+        margin-top: 80px;
+    }
+    #f{
+        height: 969px;
+        font-family: 'Kalam', sans-serif;
+    }
+    .hola{
+        font-size: 24px;
+        margin-left: 23px;
+        font-family: 'Kalam', sans-serif;
+    }
+    .nav-item{
+        margin-left:53px;
+        font-family: 'Kalam', sans-serif;
+    }
+    
+    .encabezado.abajo #imagen.oculto {
+        opacity: 1;
+      }
+      
+      .encabezado.abajo a{
+        color:#000000
+      }
+      
+      .encabezado.abajo {
+        background-color: #ffffff;
+        padding: 15px 20px;
+      }
+    
+      .encabezado.abajo{
+        border: 2px solid black;
+    }
+
+    
+    .container {
+        width: 70%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .section .image {
+    flex: 1;
+    }
+
+    .section .image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .section .text {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .section.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .text{
+        color: rgb(255, 255, 255);
+        font-family: 'Kalam', sans-serif;
+    }
+
+
+    #l{
+        margin-top: 134px;
+        font-family: 'Kalam', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    h1{
+        font-size: 23px;
+    }
+    
+    #im1{
+        width: 200px;
+        height: 200px;
+        margin-right: -64px;
+
+    }
+
+    #im2{
+        width: 200px;
+        height: 200px;
+        margin-left: -87px;
+
+    }
+
+    #im3{
+        width: 200px;
+        height: 200px;
+        margin-left: -93px;
+
+    }
+
+    #im4{
+        width: 200px;
+        height: 200px;
+        margin-left: -93px;
+
+    }
+
+    #im5{
+        width: 200px;
+        height: 200px;
+        margin-right: -74px;
+    }
+
+    #im6{
+        width: 200px;
+        height: 200px;
+        margin-right: -74px;
+
+    }
+
+    h2{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 13px;
+    }
+    #con{
+        background-color: black;
+        margin-top: 60px;
+        height: 120px;
+        text-align: center;
+    }
+    
+    #co{
+        color: white;
+        font-family: 'Kalam', sans-serif;
+        font-weight: bold;
+        padding: 1%;
+        font-size: 22px;
+        margin-top: 23px;
+    }
+    
+    #pie{
+        height: 50px;
+        margin-top: 23px;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 890px) {
+    .navbar.enlace{
+        background-color: #0059C1;
+    }
+    .encabezado{
+        background-color: #3191ff;
+        height: 130px;
+        width: 575px;
+        transition: all 0.25s;
+        position: fixed;
+        margin-top: 80px;
+    }
+    #f{
+        height: 969px;
+        font-family: 'Kalam', sans-serif;
+    }
+    .hola{
+        font-size: 24px;
+        margin-left: 23px;
+        font-family: 'Kalam', sans-serif;
+    }
+    .nav-item{
+        margin-left:53px;
+        font-family: 'Kalam', sans-serif;
+    }
+    
+    .encabezado.abajo #imagen.oculto {
+        opacity: 1;
+      }
+      
+      .encabezado.abajo a{
+        color:#000000
+      }
+      
+      .encabezado.abajo {
+        background-color: #ffffff;
+        padding: 15px 20px;
+      }
+    
+      .encabezado.abajo{
+        border: 2px solid black;
+    }
+
+    
+    .container {
+        width: 80%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .section .image {
+    flex: 1;
+    }
+
+    .section .image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .section .text {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .section.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .text{
+        color: rgb(255, 255, 255);
+        font-family: 'Kalam', sans-serif;
+    }
+
+
+    #l{
+        margin-top: 134px;
+        font-family: 'Kalam', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    h1{
+        font-size: 23px;
+    }
+    
+    #im1{
+        width: 300px;
+        height: 300px;
+        margin-right: -64px;
+
+    }
+
+    #im2{
+        width: 300px;
+        height: 300px;
+        margin-left: -87px;
+
+    }
+
+    #im3{
+        width: 300px;
+        height: 300px;
+        margin-left: -93px;
+
+    }
+
+    #im4{
+        width: 300px;
+        height: 300px;
+        margin-left: -93px;
+
+    }
+
+    #im5{
+        width: 300px;
+        height: 300px;
+        margin-right: -74px;
+    }
+
+    #im6{
+        width: 300px;
+        height: 300px;
+        margin-right: -74px;
+
+    }
+
+    h2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    #con{
+        background-color: black;
+        margin-top: 60px;
+        height: 120px;
+        text-align: center;
+    }
+    
+    #co{
+        color: white;
+        font-family: 'Kalam', sans-serif;
+        font-weight: bold;
+        padding: 1%;
+        font-size: 22px;
+        margin-top: 23px;
+    }
+    
+    #pie{
+        height: 50px;
+        margin-top: 23px;
+    }
+}

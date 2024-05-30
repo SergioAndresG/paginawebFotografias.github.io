@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sec1{
+  background: url("https://wallpapercave.com/wp/xtnht3P.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sec2{
+  background: url("https://s1.1zoom.me/b3946/672/Roses_Wedding_Ring_Flower-bud_542707_2560x1440.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sec3{
+  background: url("http://hintergrundbild.org/wallpaper/full/7/a/7/49976-most-popular-hochzeit-hintergrundbilder-hd-1920x1200.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sec4{
+  background: url("https://wallpaperaccess.com/full/229798.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section{
+  width: 100%;
+  height: 100vh;
+}
+
+.contain{
+  width: 100%;
+  height: 200px;
+  background: #ffffff;
+  text-align: center;
+  margin-top: 34px;
+}
+
+
+.contain p{
+  font-size: 2.5rem;
+  font-family: 'Kalam', sans-serif;
+  line-height: 250px;
+}
+
+.navbar.enlace{
+    background-color: #EF6A20;
+    color: white;
+    
+}
+
+.encabezado:hover{
+   background-color: #19a282;
+}
+
+.encabezado a{
+    color: white;
+}
+
+.encabezado{
+    background-color: #000000;
+    height: 130px;
+    transition: all 0.25s;
+    position: fixed;
+    margin-top: 80px;
+}
+
+.hola{
+    color: white;
+    font-size: 34px;
+    margin-left:53px;
+    font-family: 'Kalam', sans-serif;
+}
+.nav-item{
+    margin-left:53px;
+    font-family: 'Kalam', sans-serif;
+    color: white;
+
+}
+
+.encabezado.abajo{
+    border: 2px solid black;
+}
+
+.encabezado.abajo #imagen.oculto {
+    opacity: 1;
+  }
+  
+  .encabezado.abajo a{
+    color:#000000
+  }
+  
+  .encabezado.abajo {
+    background-color: #ffffff;
+    padding: 15px 20px;
+  }
+
+
+  
+div{
+  text-align: center;
+}
+
+
+@keyframes colores {
+  0% {
+      background-color: #87878796;
+  }
+
+  25% {
+    background-color: #838383c1;
+  }
+
+  50% {
+      background-color: #d4d4d490;
+  }
+
+  100% {
+      background-color: #f9f9f9a5;
+  }
+}
+
+#carta1{
+  margin-top: 50px;
+  margin-left: 24%;
+  width:800px;
+  height: 620px;
+  border: 2px solid rgb(0, 0, 0);
+  animation-name: colores;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#i1{
+  height: 425px;
+  width: 90%;
+}
+
+#texto{
+  font-size: 33px;
+  font-family: 'Kalam', sans-serif;
+  margin-top: 22px;
+  font-weight: bold;
+}
+
+h1{
+  font-family: 'Kalam', sans-serif;
+  font-size: 23px;
+}
+
+h3{
+  font-family: 'Kalam', sans-serif;
+  font-size: 53px;
+  margin-top: 63px;
+  margin-left: 199px;
+}
+
+
+#con{
+  background-color: black;
+  margin-top: 60px;
+  height: 200px;
+  text-align: center;
+}
+
+#co{
+  color: white;
+  font-family: 'Kalam', sans-serif;
+  font-weight: bold;
+  padding: 1%;
+  font-size: 23px;
+}
+
+#pie{
+  height: 100px;
+  margin-top: 2px;
+}
+
+
+@media screen  and (min-width: 491px) and (max-width: 570px){
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .encabezado:focus-within {
+    height: 180px;
+    background-color: #000000;
+    padding: 15px 20px;
+}
+    .encabezado:hover{
+      background-color: #19a282;
+  }
+  
+  .encabezado a{
+      color: white;
+  }
+  
+  .encabezado{
+      background-color: #000000;
+      width: 495px;
+      height: 120px;
+      transition: all 0.25s;
+      position: fixed;
+  }
+  #f{
+      height: 969px;
+      font-family: 'Kalam', sans-serif;
+  }
+  .hola{
+      color: white;
+      font-size: 24px;
+      margin-left: 33px;
+      font-family: 'Kalam', sans-serif;
+  }
+  .nav-item{
+      margin-left:53px;
+      font-family: 'Kalam', sans-serif;
+      color: white;
+  }
+  
+  .encabezado.abajo{
+      border: 2px solid black;
+  }
+  
+  .encabezado.abajo #imagen.oculto {
+      opacity: 1;
+  }
+  
+  .encabezado.abajo a{
+  color:#000000
+  }
+  
+  .encabezado.abajo {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  }
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .sec1, .sec2, .sec3, .sec4 {
+    height: 70vh; 
+  }
+  
+  .contain {
+    height: auto;
+    margin-top: 120px; 
+  }
+  
+  .contain p {
+    font-size: 16px;
+    line-height: 1.6; 
+  }
+
+  #i1{
+    height: 425px;
+    width: 90%;
+  }
+  
+  #texto{
+    font-family: 'Kalam', sans-serif;
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  h3{
+    font-family: 'Kalam', sans-serif;
+    font-size: 23px;
+    margin-top: 63px;
+    margin-left: 48px;
+  }
+
+
+  #i1{
+    height: 175px;
+    width: 80%;
+    padding: 2px;
+  }
+
+  #carta1{
+    margin-top: 50px;
+    margin-left: 14%;
+    width: 370px;
+    height: 350px;
+    border: 2px solid rgb(0, 0, 0);
+    animation-name: colores;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  h1{
+    font-family: 'Kalam', sans-serif;
+    font-size: 13px;
+  }
+
+  #con{
+    background-color: black;
+    margin-top: 60px;
+    height: 120px;
+    text-align: center;
+}
+
+#co{
+    color: white;
+    font-family: 'Kalam', sans-serif;
+    font-weight: bold;
+    padding: 1%;
+    font-size: 22px;
+    margin-top: 23px;
+}
+
+#pie{
+    height: 50px;
+    margin-top: 23px;
+}
+}
+
+@media screen and (min-width: 571px) and (max-width: 890px) {
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .encabezado:focus-within {
+    height: 180px;
+    background-color: #000000;
+    padding: 15px 20px;
+}
+    .encabezado:hover{
+      background-color: #19a282;
+  }
+  
+  .encabezado a{
+      color: white;
+  }
+  
+  .encabezado{
+      background-color: #000000;
+      width: 575px;
+      height: 120px;
+      transition: all 0.25s;
+      position: fixed;
+  }
+  #f{
+      height: 969px;
+      font-family: 'Kalam', sans-serif;
+  }
+  .hola{
+      color: white;
+      font-size: 24px;
+      margin-left: 33px;
+      font-family: 'Kalam', sans-serif;
+  }
+  .nav-item{
+      margin-left:53px;
+      font-family: 'Kalam', sans-serif;
+      color: white;
+  }
+  
+  .encabezado.abajo{
+      border: 2px solid black;
+  }
+  
+  .encabezado.abajo #imagen.oculto {
+      opacity: 1;
+  }
+  
+  .encabezado.abajo a{
+  color:#000000
+  }
+  
+  .encabezado.abajo {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .sec1, .sec2, .sec3, .sec4 {
+    height: 50vh;
+    background-attachment: scroll; /* Cambiado de fixed a scroll */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .contain {
+    height: auto; /* Cambiado de 30px a auto */
+    margin-top: 10px; /* Reducido el margen superior */
+  }
+  
+  .contain p {
+    font-size: 14px; /* Aumentado el tamaño de la fuente */
+    line-height: 1.5; /* Ajustada la altura de línea */
+  }
+
+  #con{
+    background-color: black;
+    margin-top: 60px;
+    height: 120px;
+    text-align: center;
+}
+
+#co{
+    color: white;
+    font-family: 'Kalam', sans-serif;
+    font-weight: bold;
+    padding: 1%;
+    font-size: 22px;
+    margin-top: 23px;
+}
+
+#pie{
+    height: 50px;
+    margin-top: 23px;
+}
+
+#i1{
+  height: 175px;
+  width: 80%;
+  padding: 2px;
+}
+
+#carta1{
+  margin-top: 50px;
+  margin-left: 19%;
+  width: 370px;
+  height: 350px;
+  border: 2px solid rgb(0, 0, 0);
+  animation-name: colores;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+h1{
+  font-family: 'Kalam', sans-serif;
+  font-size: 13px;
+}
+
+#texto{
+  font-family: 'Kalam', sans-serif;
+  margin-top: 22px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h3{
+  font-family: 'Kalam', sans-serif;
+  font-size: 23px;
+  margin-top: 63px;
+  margin-left: 48px;
+}
+
+}
+
+@media screen and (min-width: 891px) and (max-width: 1090px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .encabezado:focus-within {
+    height: 180px;
+    background-color: #000000;
+    padding: 15px 20px;
+}
+    .encabezado:hover{
+      background-color: #19a282;
+  }
+  
+  .encabezado a{
+      color: white;
+  }
+  
+  .encabezado{
+      background-color: #000000;
+      width: 900px;
+      height: 120px;
+      transition: all 0.25s;
+      position: fixed;
+  }
+  #f{
+      height: 969px;
+      font-family: 'Kalam', sans-serif;
+  }
+  .hola{
+      color: white;
+      font-size: 24px;
+      margin-left: 33px;
+      font-family: 'Kalam', sans-serif;
+  }
+  .nav-item{
+      margin-left:53px;
+      font-family: 'Kalam', sans-serif;
+      color: white;
+  }
+  
+  .encabezado.abajo{
+      border: 2px solid black;
+  }
+  
+  .encabezado.abajo #imagen.oculto {
+      opacity: 1;
+  }
+  
+  .encabezado.abajo a{
+  color:#000000
+  }
+  
+  .encabezado.abajo {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  }
+
+
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .sec1, .sec2, .sec3, .sec4 {
+    height: 50vh;
+    background-attachment: fixed; /* Cambiado de fixed a scroll */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .contain {
+    height: auto; /* Cambiado de 30px a auto */
+    margin-top: 120px; /* Reducido el margen superior */
+  }
+  
+  .contain p {
+    font-size: 14px; /* Aumentado el tamaño de la fuente */
+    line-height: 1.5; /* Ajustada la altura de línea */
+  }
+
+  #i1{
+    height: 175px;
+    width: 80%;
+    padding: 2px;
+  }
+  
+  #carta1{
+    margin-top: 50px;
+    margin-left: 26%;
+    width: 470px;
+    height: 390px;
+    border: 2px solid rgb(0, 0, 0);
+    animation-name: colores;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  h1{
+    font-family: 'Kalam', sans-serif;
+    font-size: 17px;
+  }
+  
+  #texto{
+    font-family: 'Kalam', sans-serif;
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  h3{
+    font-family: 'Kalam', sans-serif;
+    font-size: 27px;
+    margin-top: 63px;
+    margin-left: 188px;
+  }
+
+
+}
